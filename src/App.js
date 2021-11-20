@@ -7,31 +7,25 @@ import  Testimonies from './pages/Testimonies.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from'./components/navigation.js';
 
+
 function App() {
-  return (
-    <div>
-      
-    <Router><Navigation/>
+
+        return(
+          <Navigation/>
+
+        );
+}
      
-        <Routes>
-          <Route path='/' element={<Menu/>}/>
-          <Route path='/howit' element={<Howitworks/>}/>
-          <Route path='/services' element={<Services/>}/>
-          <Route path='/testimonies' element={<Testimonies/>}/>
-        </Routes>
-        </Router> 
-        
-          
+       
         
       
-     
+      
       
       
          
      
      
-    </div>
-  );
-}
+  
+
 
 export default App;
